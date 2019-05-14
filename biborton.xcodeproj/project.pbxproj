@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10421B3D228ACBD1006542EE /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 10421B3C228ACBD1006542EE /* tessdata */; };
+		1076B38B2288B2290001ECD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1076B38A2288B2290001ECD8 /* AppDelegate.swift */; };
+		1076B38D2288B2290001ECD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1076B38C2288B2290001ECD8 /* ViewController.swift */; };
+		1076B3902288B2290001ECD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1076B38E2288B2290001ECD8 /* Main.storyboard */; };
+		1076B3922288B22B0001ECD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1076B3912288B22B0001ECD8 /* Assets.xcassets */; };
+		1076B3952288B22B0001ECD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1076B3932288B22B0001ECD8 /* LaunchScreen.storyboard */; };
+		1076B39D2288B6C20001ECD8 /* startScreenControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1076B39C2288B6C20001ECD8 /* startScreenControllerViewController.swift */; };
+		1076B39F2288C0FB0001ECD8 /* TextScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1076B39E2288C0FB0001ECD8 /* TextScreenController.swift */; };
+		1076B3A12288C11A0001ECD8 /* infoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1076B3A02288C11A0001ECD8 /* infoViewController.swift */; };
+		B9AF291F7ACAD82C7E382593 /* Pods_biborton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 600CBEA954E3B96BBD00A82C /* Pods_biborton.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F5B79B039FB2C53B6D0989E /* Pods-biborton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-biborton.debug.xcconfig"; path = "Target Support Files/Pods-biborton/Pods-biborton.debug.xcconfig"; sourceTree = "<group>"; };
+		10421B3C228ACBD1006542EE /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		1076B3872288B2290001ECD8 /* biborton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = biborton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1076B38A2288B2290001ECD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1076B38C2288B2290001ECD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1076B38F2288B2290001ECD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1076B3912288B22B0001ECD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1076B3942288B22B0001ECD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1076B3962288B22B0001ECD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1076B39C2288B6C20001ECD8 /* startScreenControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startScreenControllerViewController.swift; sourceTree = "<group>"; };
+		1076B39E2288C0FB0001ECD8 /* TextScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreenController.swift; sourceTree = "<group>"; };
+		1076B3A02288C11A0001ECD8 /* infoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoViewController.swift; sourceTree = "<group>"; };
+		600CBEA954E3B96BBD00A82C /* Pods_biborton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_biborton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA71C14E10637597989468F /* Pods-biborton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-biborton.release.xcconfig"; path = "Target Support Files/Pods-biborton/Pods-biborton.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1076B3842288B2290001ECD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AF291F7ACAD82C7E382593 /* Pods_biborton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1076B37E2288B2290001ECD8 = {
+			isa = PBXGroup;
+			children = (
+				1076B3892288B2290001ECD8 /* biborton */,
+				1076B3882288B2290001ECD8 /* Products */,
+				19BA8274920BB9D81FD3881C /* Pods */,
+				7D17E2871EE282702DDCF6E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1076B3882288B2290001ECD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1076B3872288B2290001ECD8 /* biborton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1076B3892288B2290001ECD8 /* biborton */ = {
+			isa = PBXGroup;
+			children = (
+				1076B38A2288B2290001ECD8 /* AppDelegate.swift */,
+				1076B39C2288B6C20001ECD8 /* startScreenControllerViewController.swift */,
+				1076B38C2288B2290001ECD8 /* ViewController.swift */,
+				1076B39E2288C0FB0001ECD8 /* TextScreenController.swift */,
+				1076B3A02288C11A0001ECD8 /* infoViewController.swift */,
+				1076B38E2288B2290001ECD8 /* Main.storyboard */,
+				1076B3912288B22B0001ECD8 /* Assets.xcassets */,
+				10421B3C228ACBD1006542EE /* tessdata */,
+				1076B3932288B22B0001ECD8 /* LaunchScreen.storyboard */,
+				1076B3962288B22B0001ECD8 /* Info.plist */,
+			);
+			path = biborton;
+			sourceTree = "<group>";
+		};
+		19BA8274920BB9D81FD3881C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F5B79B039FB2C53B6D0989E /* Pods-biborton.debug.xcconfig */,
+				BEA71C14E10637597989468F /* Pods-biborton.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D17E2871EE282702DDCF6E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				600CBEA954E3B96BBD00A82C /* Pods_biborton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1076B3862288B2290001ECD8 /* biborton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1076B3992288B22B0001ECD8 /* Build configuration list for PBXNativeTarget "biborton" */;
+			buildPhases = (
+				8523C4C1BC624A5898C4AC09 /* [CP] Check Pods Manifest.lock */,
+				1076B3832288B2290001ECD8 /* Sources */,
+				1076B3842288B2290001ECD8 /* Frameworks */,
+				1076B3852288B2290001ECD8 /* Resources */,
+				986F53FF56F9455090E48267 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = biborton;
+			productName = biborton;
+			productReference = 1076B3872288B2290001ECD8 /* biborton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1076B37F2288B2290001ECD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Tasauf Mim";
+				TargetAttributes = {
+					1076B3862288B2290001ECD8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1076B3822288B2290001ECD8 /* Build configuration list for PBXProject "biborton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1076B37E2288B2290001ECD8;
+			productRefGroup = 1076B3882288B2290001ECD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1076B3862288B2290001ECD8 /* biborton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1076B3852288B2290001ECD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1076B3952288B22B0001ECD8 /* LaunchScreen.storyboard in Resources */,
+				10421B3D228ACBD1006542EE /* tessdata in Resources */,
+				1076B3922288B22B0001ECD8 /* Assets.xcassets in Resources */,
+				1076B3902288B2290001ECD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8523C4C1BC624A5898C4AC09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-biborton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		986F53FF56F9455090E48267 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-biborton/Pods-biborton-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-biborton/Pods-biborton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1076B3832288B2290001ECD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1076B38D2288B2290001ECD8 /* ViewController.swift in Sources */,
+				1076B38B2288B2290001ECD8 /* AppDelegate.swift in Sources */,
+				1076B3A12288C11A0001ECD8 /* infoViewController.swift in Sources */,
+				1076B39F2288C0FB0001ECD8 /* TextScreenController.swift in Sources */,
+				1076B39D2288B6C20001ECD8 /* startScreenControllerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1076B38E2288B2290001ECD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1076B38F2288B2290001ECD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1076B3932288B22B0001ECD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1076B3942288B22B0001ECD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1076B3972288B22B0001ECD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1076B3982288B22B0001ECD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1076B39A2288B22B0001ECD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5B79B039FB2C53B6D0989E /* Pods-biborton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = biborton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasauf.biborton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1076B39B2288B22B0001ECD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA71C14E10637597989468F /* Pods-biborton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = biborton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasauf.biborton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1076B3822288B2290001ECD8 /* Build configuration list for PBXProject "biborton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1076B3972288B22B0001ECD8 /* Debug */,
+				1076B3982288B22B0001ECD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1076B3992288B22B0001ECD8 /* Build configuration list for PBXNativeTarget "biborton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1076B39A2288B22B0001ECD8 /* Debug */,
+				1076B39B2288B22B0001ECD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1076B37F2288B2290001ECD8 /* Project object */;
+}
